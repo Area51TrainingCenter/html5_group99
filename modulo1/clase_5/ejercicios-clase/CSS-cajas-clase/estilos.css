@@ -1,0 +1,120 @@
+/* 
+	Elementos
+		bloque: ancho = ventana
+
+		inline: ancho = contenido;
+
+*/
+
+
+.caja1 {
+	background-color: rgba(102,51,153,.5);
+	width: 100%;
+	max-height: 40px;
+	min-height: 400px;
+	max-width: 400px;
+	min-width: 300px;
+}
+
+.caja2 {
+	background-color: rgba(10,30,153,.5);
+	width: 500px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.caja3 {
+	background-color: rgba(57,23,90,.5);
+	width: 500px;
+	height: 500px;
+	border-bottom-width: 13px;
+	border-bottom-style: solid;
+	border-bottom-color: green;
+
+	border-bottom: 13px solid green;
+	border: 13px solid green; 
+}
+
+.caja4 {
+	background-color: rgba(7,14,9,.9);
+	width: 500px;
+	height: 500px;
+	/*
+	margin-top: 30px;
+	margin-left: 50px;
+
+	margin: 30px 40px 0px 160px;
+	margin: 30px 40% 40px;
+	margin: 30px 50%;
+	*/
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.caja5 {
+	background-color: rgba(7,14,9,.9);
+	font-size: 2em;
+	width: 500px;
+	color: white;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.caja6 {
+	background-color: rgba(7,14,9,.9);
+	font-size: 2em;
+	width: 500px;
+	margin: 40px 0;
+}
+
+.caja6 a {
+	background: rgba(0,0,0,0.5);
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: block;
+}
+
+.caja6 span {
+	background: green;
+	color: white;
+}
+
+.caja6 p {
+	background: green;
+	color: white;
+	width: 140px;
+}
+
+.caja7 {
+	background-color: rgba(7,14,9,.9);
+	font-size: 2em;
+	width: 500px;
+	height: 300px;
+	margin: 40px 0;
+	display: none;
+	visibility: hidden;
+}
+
+.caja8 {
+	background-color: rgba(7,14,9,.9);
+	font-size: 2em;
+	width: 500px;
+	height: 300px;
+	margin: 40px 0;
+	box-shadow: 1px 1px 19px 3px purple
+}
+
+.caja9 {
+	background-color: rgba(7,14,9,.9);
+	font-size: 2em;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 30px;
+}
+
+
+
