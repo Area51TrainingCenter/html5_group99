@@ -1,0 +1,44 @@
+/* 
+  Fuentes: Roboto, Mukta Malar. Google Fonts
+  Paleta de Colores:
+    #FFFFFF
+    #d7b065
+*/
+
+body {
+  background-color: black;
+  background-image: url('images/banner.jpg');
+  background-position: fixed; 
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Mukta Malar', sans-serif;
+  font-weight: 700;
+  font-size: 5em;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+nav a.active, nav a:hover {
+  color: #d7b065;
+}
+
+header span {
+  color: #d7b065;
+}
+
+#banner {
+  font-size: 6em;
+}

@@ -53,15 +53,12 @@ div.texto p {
 	text-transform: capitalize;
 }
 
-
 div.texto p {
 	text-decoration: none;
 	text-decoration: underline;
 	text-decoration: line-through;
 	text-decoration: overline;
 }
-
-
 
 div.texto p {
 	text-align: left;
